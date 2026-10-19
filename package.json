@@ -1,0 +1,14 @@
+{
+  "name": "hello-cicd",
+  "version": "1.0.0",
+  "description": "Proyecto Hello World para la actividad 3.1.2 DevSecOps (pipeline CI/CD en Jenkins con Docker)",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "node scripts/build.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
