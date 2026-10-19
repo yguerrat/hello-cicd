@@ -7,7 +7,7 @@ function createServer() {
       return res.end(JSON.stringify({ status: 'ok' }));
     }
     res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
-    res.end('Hola Mundo desde el pipeline CI/CD v2\n');
+    res.end('Hello World desde el pipeline CI/CD v2\n');
   });
 }
 
